@@ -1,0 +1,43 @@
+.searchbar {
+	display: flex;
+	justify-content: center;
+}
+
+.search-container {
+	position: relative;
+	display: inline-block;
+}
+
+.search {
+	font-family: "Quicksand";
+	font-weight: 400;
+	background-color:  rgb(94, 79, 119);
+	color:  rgb(213, 191, 247);
+	border-radius: 30px;
+	padding: 10px 0px 10px 50px;
+	border: none;
+	width: 90%;
+	height: 50px;
+	font-size: 14px;
+}
+
+.search::placeholder {
+	color:  rgb(213, 191, 247);
+}
+
+.search::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+.search:focus-visible {
+	outline: 2px solid rgb(213, 191, 247);
+}
+
+.search-icon {
+	position: absolute;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top: 12px;
+	color:  rgb(39, 15, 36);
+}
+

@@ -1,0 +1,24 @@
+.header-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.title {
+	text-align: center;
+	color: rgb(124, 102, 160);
+	font-family: "Modak";
+	font-weight: 300;
+	font-size: 80px;
+	margin-bottom: 0px;
+}
+
+.description {
+	font-family: "Quicksand";
+	margin-top: 0px;
+	color: rgb(215, 204, 231);
+	font-weight: 100;
+}
