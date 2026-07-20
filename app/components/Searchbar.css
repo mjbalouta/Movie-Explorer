@@ -1,6 +1,7 @@
 .searchbar {
 	display: flex;
 	justify-content: center;
+	gap: 40px;
 }
 
 .search-container {
@@ -14,7 +15,7 @@
 	background-color:  rgb(94, 79, 119);
 	color:  rgb(213, 191, 247);
 	border-radius: 30px;
-	padding: 10px 0px 10px 50px;
+	padding: 0px 0px 0px 50px;
 	border: none;
 	width: 90%;
 	height: 50px;
@@ -39,5 +40,17 @@
 	margin-left: 20px;
 	margin-top: 12px;
 	color:  rgb(39, 15, 36);
+}
+
+.search-btn {
+	height: 50px;
+	border-radius: 30px;
+	width: 90px;
+	text-align: center;
+	border: none;
+	background-color:  rgb(213, 191, 247);
+	font-family: "Quicksand";
+	font-weight: 600;
+	cursor: pointer;
 }
 

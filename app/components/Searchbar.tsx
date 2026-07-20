@@ -1,15 +1,17 @@
+import { Form } from "react-router";
 import "./Searchbar.css"
 import { IoSearch } from "react-icons/io5";
 
 
 function Searchbar() {
 	return (
-		<div className="searchbar">
+		<Form method="get" action="/search" className="searchbar">
 			<div className="search-container">
 				<IoSearch className="search-icon" />
-				<input className="search" type="search" placeholder="Search a movie"></input>
+				<input className="search" type="text" name="q" placeholder="Search a movie"></input>
 			</div>
-		</div>
+			<button className="search-btn" type="submit">Search</button>
+		</Form>
 	)
 }
 
